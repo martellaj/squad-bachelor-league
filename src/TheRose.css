@@ -1,0 +1,22 @@
+.rose-container {
+    padding: 12px;
+    width: 200px;
+}
+
+.rose-title-container {
+    margin-bottom: 12px;
+}
+
+.rose-title {
+    font-style: italic;
+}
+
+.rose-standing-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.rose-standing-points {
+    font-weight: bold;
+}
