@@ -41,9 +41,9 @@ export default class TheRose extends Component {
         // Sort standings bsaed on points, then name.
         standings.sort((a, b) => {
             if (a.points > b.points) {
-                return 1;
-            } else if (a.points < b.points) {
                 return -1;
+            } else if (a.points < b.points) {
+                return 1;
             } else {
                 return a.name > b.name;
             }
