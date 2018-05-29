@@ -21,3 +21,11 @@
 .rose-standing-points {
     font-weight: bold;
 }
+
+.player-container {
+    margin-top: 12px;
+}
+
+.player-picture {
+    max-height: 200px;
+}
