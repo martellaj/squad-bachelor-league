@@ -6,7 +6,7 @@ export default class TheRose extends Component {
         super();
 
         this.state = {
-            players: []
+            standing: null
         };
 
         this.getStandings = this.getStandings.bind(this);
@@ -67,7 +67,7 @@ export default class TheRose extends Component {
                     <a
                         className="rose-standing-name"
                         href="#"
-                        onClick={() => this.onNameClick(standing.players)}
+                        onClick={() => this.onNameClick(standing)}
                     >
                         {standing.name}
                     </a>{' '}
@@ -81,17 +81,32 @@ export default class TheRose extends Component {
         return standingElements;
     }
 
-    onNameClick(players) {
-        this.setState({
-            players: players
-        });
+    onNameClick(standing) {
+        if (
+            standing.name === (this.state.standing && this.state.standing.name)
+        ) {
+            this.setState({
+                standing: null
+            });
+        } else {
+            this.setState({
+                standing: standing
+            });
+        }
     }
 
     renderPlayers() {
-        const players = this.state.players;
+        const standing = this.state.standing;
 
-        if (players.length) {
-            return <div>{this.getPlayerElements(players)}</div>;
+        if (standing) {
+            return (
+                <div className="players-container">
+                    <div>
+                        <strong>{standing.name}'s Team</strong>
+                    </div>
+                    <div>{this.getPlayerElements(standing.players)}</div>
+                </div>
+            );
         }
     }
 

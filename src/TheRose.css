@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.players-container {
+    margin-top: 24px;
+}
+
 .player-container {
     margin-top: 12px;
 }
