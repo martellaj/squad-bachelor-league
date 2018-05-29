@@ -18,7 +18,12 @@ export default class TheRose extends Component {
         return (
             <div className="rose-container">
                 <div className="rose-title-container">
-                    <span className="rose-title">The Rose™</span> Standings
+                    <div>
+                        <span className="rose-title">The Rose™</span> Standings
+                    </div>
+                    <span className="rose-last-updated">
+                        (last updated 5/29/18)
+                    </span>
                 </div>
                 {this.renderStandings(standings)}
                 {this.renderPlayers()}
