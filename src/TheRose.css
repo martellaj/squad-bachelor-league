@@ -45,3 +45,8 @@
 .player-picture-eliminated {
     opacity: 0.5;
 }
+
+.player-note {
+    font-size: 12px;
+    font-style: italic;
+}

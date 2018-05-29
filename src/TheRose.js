@@ -131,6 +131,9 @@ export default class TheRose extends Component {
                     >
                         {player.name} (pick #{player.pick})
                     </span>
+                    {player.note && (
+                        <div className="player-note">{player.note}</div>
+                    )}
                     <img
                         className={`player-picture ${
                             player.eliminated ? 'player-picture-eliminated' : ''

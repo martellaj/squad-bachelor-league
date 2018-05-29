@@ -21,7 +21,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136990/1e14c90884705537a9b056edf278aace/330x330-Q90_1e14c90884705537a9b056edf278aace.jpg',
                     pick: 8,
                     points: 0,
-                    eliminated: true
+                    eliminated: true,
+                    note: "His watermelons weren't good enough."
                 },
                 {
                     name: 'Jake',
@@ -31,7 +32,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136987/a68df3fb0e9f757d083a2e557d86b7de/330x330-Q90_a68df3fb0e9f757d083a2e557d86b7de.jpg',
                     pick: 17,
                     points: 0,
-                    eliminated: true
+                    eliminated: true,
+                    note: 'He had a transformative year.'
                 },
                 {
                     name: 'Garrett',
@@ -41,7 +43,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136985/4b71f6d322044f21e038ddbf575d1dc1/330x330-Q90_4b71f6d322044f21e038ddbf575d1dc1.jpg',
                     pick: 20,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He's the human embodiment of a labrador."
                 }
             ]
         },
@@ -56,7 +59,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136980/b1f6fb113d17379e7e5bcea7e5c8ac15/330x330-Q90_b1f6fb113d17379e7e5bcea7e5c8ac15.jpg',
                     pick: 4,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He's an unemployed football player and virgin."
                 },
                 {
                     name: 'Blake',
@@ -76,7 +80,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136988/312716db8f5981f24b198c3f836d369b/330x330-Q90_312716db8f5981f24b198c3f836d369b.jpg',
                     pick: 16,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: 'Seattle? Buffalo? The town from Grease?'
                 },
                 {
                     name: 'Connor',
@@ -111,7 +116,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136998/f3f84500127769a7964e298cf31d5f48/330x330-Q90_f3f84500127769a7964e298cf31d5f48.jpg',
                     pick: 11,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: 'He has the cleanest toilet around.'
                 },
                 {
                     name: 'Kamil',
@@ -156,7 +162,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136989/a9f191928dd0fe4c323949cc83906bb5/330x330-Q90_a9f191928dd0fe4c323949cc83906bb5.jpg',
                     pick: 7,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He's the black Paul Rudd from Anchorman."
                 },
                 {
                     name: 'Mike',
@@ -191,7 +198,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136995/26907de0d40a878212e86808dfa515a3/330x330-Q90_26907de0d40a878212e86808dfa515a3.jpg',
                     pick: 1,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He's a robot."
                 },
                 {
                     name: 'Christon',
@@ -246,7 +254,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2137004/7d67ca57e29cc819a1697cc10ac32da1/330x330-Q90_7d67ca57e29cc819a1697cc10ac32da1.jpg',
                     pick: 10,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He'll probably make a wand/penis joke."
                 },
                 {
                     name: 'Darius',
@@ -266,7 +275,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136991/2df4b9d42e9461b280209f1902e9b518/330x330-Q90_2df4b9d42e9461b280209f1902e9b518.jpg',
                     pick: 22,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: "He'lll Venmo you $5 for a rose."
                 }
             ]
         },
@@ -291,7 +301,8 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136975/6028bfedd72e1d0fbc2a2f0ac3ad08e5/330x330-Q90_6028bfedd72e1d0fbc2a2f0ac3ad08e5.jpg',
                     pick: 26,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note: 'He may or may not work for TMZ.'
                 },
                 {
                     name: 'Clay',
@@ -301,7 +312,9 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136979/2d0036b87c6deb2793dbc5aa5101a50d/330x330-Q90_2d0036b87c6deb2793dbc5aa5101a50d.jpg',
                     pick: 27,
                     points: 1,
-                    eliminated: false
+                    eliminated: false,
+                    note:
+                        'His sense of smell is his greatest strength (and weakness).'
                 },
                 {
                     name: 'Christian',
