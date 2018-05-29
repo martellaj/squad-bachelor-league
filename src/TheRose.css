@@ -37,3 +37,11 @@
 .player-picture {
     max-height: 200px;
 }
+
+.player-name-eliminated {
+    color: red;
+}
+
+.player-picture-eliminated {
+    opacity: 0.5;
+}

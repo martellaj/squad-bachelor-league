@@ -117,17 +117,30 @@ export default class TheRose extends Component {
 
     getPlayerElements(players) {
         const playerElements = [];
+
         for (const player of players) {
             playerElements.push(
                 <div
                     className="player-container"
                     onClick={() => window.open(player.bio, '_blank')}
                 >
-                    <span>{player.name}</span>
-                    <img className="player-picture" src={player.picture} />
+                    <span
+                        className={
+                            player.eliminated && 'player-name-eliminated'
+                        }
+                    >
+                        {player.name} (pick #{player.pick})
+                    </span>
+                    <img
+                        className={`player-picture ${
+                            player.eliminated ? 'player-picture-eliminated' : ''
+                        }`}
+                        src={player.picture}
+                    />
                 </div>
             );
         }
+
         return playerElements;
     }
 }
