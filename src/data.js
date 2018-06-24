@@ -10,7 +10,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136984/217669ff3e6866e90c1af6c4cebe3d4f/330x330-Q90_217669ff3e6866e90c1af6c4cebe3d4f.jpg',
                     pick: 5,
-                    points: 3,
+                    points: 4,
                     eliminated: false
                 },
                 {
@@ -42,7 +42,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136985/4b71f6d322044f21e038ddbf575d1dc1/330x330-Q90_4b71f6d322044f21e038ddbf575d1dc1.jpg',
                     pick: 20,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: "He's the human embodiment of a labrador."
                 }
@@ -58,7 +58,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136980/b1f6fb113d17379e7e5bcea7e5c8ac15/330x330-Q90_b1f6fb113d17379e7e5bcea7e5c8ac15.jpg',
                     pick: 4,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note:
                         "He's an unemployed football player and virgin and loves dating girls from this series."
@@ -70,7 +70,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136973/56a86eee7099bd5d1d26005b64172c59/330x330-Q90_56a86eee7099bd5d1d26005b64172c59.jpg',
                     pick: 9,
-                    points: 3,
+                    points: 4,
                     eliminated: false
                 },
                 {
@@ -80,7 +80,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136988/312716db8f5981f24b198c3f836d369b/330x330-Q90_312716db8f5981f24b198c3f836d369b.jpg',
                     pick: 16,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: 'Seattle? Buffalo? The town from Grease?'
                 },
@@ -91,7 +91,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136982/544e71f76e986c86f4a14b215b4be28b/330x330-Q90_544e71f76e986c86f4a14b215b4be28b.jpg',
                     pick: 21,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: "Prefers that you don't show him your trophies."
                 }
@@ -117,7 +117,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136998/f3f84500127769a7964e298cf31d5f48/330x330-Q90_f3f84500127769a7964e298cf31d5f48.jpg',
                     pick: 11,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: 'He has the cleanest toilet around.'
                 },
@@ -138,7 +138,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136997/4137be811c058026122e6b9d99366592/330x330-Q90_4137be811c058026122e6b9d99366592.jpg',
                     pick: 23,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: 'HE HAS HEART!'
                 }
@@ -166,7 +166,7 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136989/a9f191928dd0fe4c323949cc83906bb5/330x330-Q90_a9f191928dd0fe4c323949cc83906bb5.jpg',
                     pick: 7,
                     points: 3,
-                    eliminated: false,
+                    eliminated: true,
                     note: "He's the black Paul Rudd from Anchorman."
                 },
                 {
@@ -188,7 +188,7 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2137000/e7f689dd037082aef0514078385aefb1/330x330-Q90_e7f689dd037082aef0514078385aefb1.jpg',
                     pick: 19,
                     points: 3,
-                    eliminated: false
+                    eliminated: true
                 }
             ]
         },
@@ -202,7 +202,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136995/26907de0d40a878212e86808dfa515a3/330x330-Q90_26907de0d40a878212e86808dfa515a3.jpg',
                     pick: 1,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: "He's a robot who likes to get naked."
                 },
@@ -214,7 +214,7 @@ export default {
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136978/9139f63ef6c294cabd30722f5b16b8a3/330x330-Q90_9139f63ef6c294cabd30722f5b16b8a3.jpg',
                     pick: 12,
                     points: 3,
-                    eliminated: false
+                    eliminated: true
                 },
                 {
                     name: 'Rickey',
@@ -258,7 +258,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2137004/7d67ca57e29cc819a1697cc10ac32da1/330x330-Q90_7d67ca57e29cc819a1697cc10ac32da1.jpg',
                     pick: 10,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note: "He'll probably make a wand/penis joke."
                 },
@@ -305,7 +305,7 @@ export default {
                     picture:
                         'https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/person/2136975/6028bfedd72e1d0fbc2a2f0ac3ad08e5/330x330-Q90_6028bfedd72e1d0fbc2a2f0ac3ad08e5.jpg',
                     pick: 26,
-                    points: 3,
+                    points: 4,
                     eliminated: false,
                     note:
                         "He may or may not work for TMZ. Or be Ben Stiller's love child."
